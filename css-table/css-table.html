@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CSS Table</title>
+<style>
+table, th, td, td {
+    border-collapse: collapse;
+    border: 4px dashed lightblue;
+}
+thead {
+ height: 50px;
+ width: 90px;
+ text-align: center;
+ background-color: green;
+}
+tbody {
+    height: 20px;
+    width: 27px;
+    text-align: right;
+    padding: 5px;
+    background-color: wheat;
+}
+caption {
+    background-color: lightblue;
+}
+tfoot {
+    background-color: lightcoral;
+    text-align: right;
+}
+</style>
+</head>
+<body>
+
+<table>
+    <caption> City Populations </caption>
+<thead>
+        <tr>
+        <th>
+            Cities
+        </th>
+        <th>
+            Population
+        </th>
+    </tr>
+</thead>    
+<tbody>
+       <tr>
+        <td>
+            Jackson
+        </td>
+        <td>
+            7,500
+        </td>
+    </tr>
+    <tr>
+        <td>
+            West Bend
+        </td>
+        <td>
+            31,500
+        </td>
+    </tr>
+</tbody>
+    <tfoot>
+        <tr>
+            <td>
+            Total
+         </td>
+         <td>
+            39,000
+         </td>
+        <tr></tr>
+    </tfoot>
+</table>
+
+</body>
+</html>
